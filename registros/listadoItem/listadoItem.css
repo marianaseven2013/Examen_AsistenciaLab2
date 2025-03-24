@@ -1,0 +1,39 @@
+.listAl {
+    width: 100%;
+    height: 64rem;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: 3px repeat(6, 1fr) auto;
+    grid-template-rows: 6rem repeat(12, 1fr) auto;
+}
+
+.hea {
+    background-color: blue;
+    grid-column: 1/8;
+    grid-template-rows: 1/2;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url(https://i.pinimg.com/736x/ed/b9/28/edb928cfac3267d847de3566de97cdbd.jpg) center/cover;
+}
+
+.Asiss {
+    font-size: 3.3rem;
+    padding-left: 35rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 1.3rem;
+    font-family: cursive;
+    text-shadow: 2px 1px 3px rgb(228, 228, 228);
+}
+
+.FondoL {
+    grid-column: 1/8;
+    grid-row: 2/15;
+    background: 
+        url(https://i.pinimg.com/474x/62/ee/4c/62ee4c10ea2a98840bfade1e67e9a847.jpg) center/cover;
+}
+
+button {
+    grid-column: 7/8;
+    grid-row: 12/13;
+}

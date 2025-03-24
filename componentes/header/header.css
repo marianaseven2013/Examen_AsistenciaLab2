@@ -1,0 +1,40 @@
+.header{
+    background-color: black;
+    width: 135rem;
+    height: 7rem;
+    margin: 1px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10px auto 10px;
+
+    background-size: cover;
+    background-position: center;
+
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(https://media.licdn.com/dms/image/v2/C4E16AQF4Ux5vmN8ybw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1631498966967?e=2147483647&v=beta&t=sZrWDV1VFfQ4mhm0jdkh3cgtHVlOZkIiAmA4LWGoXAM) center/cover;
+
+   
+}
+
+.TituloH{
+    color: black;
+    font-size: 4rem;
+    width: 110rem;
+    font-weight: bold;
+    padding-left: 20rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 2rem;
+    color: white;
+    text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.7);
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+
+
+
+
